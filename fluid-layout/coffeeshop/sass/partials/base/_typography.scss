@@ -1,0 +1,36 @@
+//Typography
+
+h2 {
+    color: $shady-lady;
+    font: $font-titl-h2;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #fff;
+    font: $font-titl-h3;
+    letter-spacing: 0.5px;
+}
+
+
+p {
+    color: $shady-lady;
+    font: $font-p;
+}
+
+.nav {
+	list-style-type: none;
+    font: $font-nav;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+li a {
+    color: $shady-lady;
+    text-align: center;
+    text-decoration: none
+}

@@ -1,0 +1,36 @@
+//Navegation
+
+.nav {
+    background-color: $wild-sand;
+    width: 553px;
+    height: 45px;
+    border-radius: 50px;
+    float: right;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-left: 1px solid $shady-lady;
+
+    &:first-child {
+    border-left: none;
+    }
+}
+
+li a {
+    display: block;
+    padding: 14px 30px;
+
+     &:hover{
+        color: $millbrook;
+        font-style: bold;
+        background-color: $mandys-pink;
+    }
+}

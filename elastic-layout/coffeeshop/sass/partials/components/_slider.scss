@@ -1,0 +1,51 @@
+// Slider
+
+
+.slider {
+    padding-top: 3.125em;
+    background-color: $mercury;
+    position: relative; 
+    clear: both;
+
+    a {
+        font: $font-btn;
+        color: $millbrook;
+        text-decoration: none;
+        padding-right: 1.43em;
+        background: url(../img/readmore.png) no-repeat right;
+    }
+}
+
+#right {
+    position: absolute; 
+    background: none;
+    left:  4.37em;
+    top: 12.12em;
+}
+
+#left {
+    position: absolute; 
+    background: none;
+    right:  4.37em;
+    top: 12.12em;
+}
+
+.info-slider  {
+    width: 30.68em;
+    height: 15em;
+    margin-left: 9.31em;
+    padding-top: 5.25em;
+    float: left;   
+}
+
+.img-slider {
+    width: 30.68em;
+    height: 15em;
+    margin-left: 9.31em;
+    padding-top: 5.25em;
+    float: right;  
+}
+.ellipse {
+    text-align: center;
+}
+

@@ -1,0 +1,53 @@
+// Slider
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: $mercury;
+    position: relative; 
+    clear: both;
+
+    a {
+        font: $font-btn;
+        color: $millbrook;
+        text-decoration: none;
+        padding-right: 23px;
+        background: url(../img/readmore.png) no-repeat right;
+    }
+}
+
+#right {
+    position: absolute; 
+    background: none;
+    left:  70px;
+    top: 194px;
+}
+
+#left {
+    position: absolute; 
+    background: none;
+    right:  70px;
+    top: 194px;
+}
+
+.info-slider  {
+    width: 30%;
+    height: 240px;
+    margin-left: 149px;
+    padding-top: 84px;
+    float: left;   
+}
+
+.img-slider {
+    width: 30%;
+    height: 240px;
+    margin-right: 149px;
+    padding-top: 84px;
+    float: right;  
+}
+.ellipse {
+    text-align: center;
+    padding: 10px;
+}
+

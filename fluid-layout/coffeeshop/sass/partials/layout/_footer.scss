@@ -1,0 +1,39 @@
+//Footer
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: $millbrook;
+    clear: both;    
+}
+
+.footer-info {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    margin-left: 27px;
+
+    p {
+    	color: #fff;
+    	margin-top: 10px;
+    }
+
+    &:last-child {
+    	margin-left: 49px;
+    	width: 15%;
+    }
+}
+
+.social-icons {
+	margin-top: 20px;
+}
+
+//sub-footer
+
+.sub-footer {
+    width:  100%;
+    text-align: center; 
+    overflow: hidden;
+    padding: 20px 0px 20px 0px;
+}
+
